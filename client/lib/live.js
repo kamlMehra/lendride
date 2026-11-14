@@ -2,7 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { ls } from './safe';
 
-const BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const BASE = process.env.NEW_API_URL || 'http://localhost:5000/api';
 
 // Keeps a live connection to the server. onMessage gets:
 //   { type: 'trips', tripId, msg }  when something changed for this user
